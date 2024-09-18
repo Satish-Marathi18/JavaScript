@@ -9,11 +9,19 @@ let score = true
 
 let isLoggedIn = "Satish"
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn); //true
+// console.log(booleanIsLoggedIn); //true
 
 //1=> true ; 0=> false
 //"" => fasle; "Satish"=> true
 
 let someNumber = 33
 let stringNumber = String(someNumber)
-console.log(typeof stringNumber) //string
+// console.log(typeof stringNumber) //string
+
+let a = 10;
+let x = a++;
+console.log(x);
+console.log(a);
+
+
+
